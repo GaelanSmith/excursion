@@ -9,7 +9,25 @@ body {
 	color: #FFFFFF;
 }
 
+/*
+header {
+	display: block;
+	position: fixed;
+	top: 30px;
+	margin: 0 auto;
+	background-color: #000000;
+	border-bottom-style: solid 3px gray;
+}
+
+main {
+	position: relative;
+	top: 200px;
+	z-index: -1;
+}
+*/
+
 h1 {
+	margin: 30px;
 	font-weight: normal;
 	font-size: 50px;
 }
@@ -21,10 +39,19 @@ h2 {
 
 p {
 	font-size: 21px;
-	color: 'gray';
+	color: gray;
 }
 
 a {
-	font-color: 'aquamarine';
+	color: aquamarine;
 	font-size: 16px;
+}
+
+img {
+	margin: 20px;
+}
+
+#footer {
+	color: gray;
+	text-align: right;
 }
